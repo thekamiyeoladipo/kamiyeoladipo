@@ -1,0 +1,113 @@
+@media (max-width: 990px) {
+   p {
+      font-size: 1rem;
+   }
+   .collab, #personal, #media, #address {
+      text-align: center;
+   }
+
+}
+
+
+
+@media (max-width: 768px) {
+ 
+   .scroll-btn i {
+      bottom: 20px;
+      right: 15px;
+   }
+
+    #toggle {
+       display: block;
+       margin-top: -4px;
+       margin-right: 5px;
+       font-size: 0.2rem;
+       
+    }
+   
+    .close-btn i {
+       margin-right: 20px;
+       font-size: 37.8px;
+    }
+
+    nav #brand {
+       margin-left: 18px;
+       font-size: 1.75rem;
+    }
+
+    #menu a {
+       font-size: 20px;
+       font-weight: 300;
+    }
+   
+    #resize li span {
+       font-weight: bolder;
+    }
+   
+    #resize #menu li {
+       font-size: 20px;
+    }
+   
+    nav #menu {
+       display: none;
+    }
+
+    .cover {
+      max-width: 60ch;
+      margin: auto;
+      padding: 10px;
+   }
+
+   .spaced {
+         margin-bottom: 120px !important;
+   }
+   .divider {
+      visibility: visible;
+   }
+
+   .project {
+      width: 100% !important;
+      margin: 14px auto;
+   }
+
+   .collab, #personal, #media, #address {
+      text-align: center;
+   }
+
+   .info ul {
+      margin: 0 0 0 -22px;
+      padding: 0;
+   }
+
+   .about-img {
+      width: 100%;
+      height: auto;
+      background-size: cover;
+   }
+   .hero-content {
+      /* padding-top: px; */
+      width: 96%;
+      margin: 0 auto;
+   }
+
+
+}
+   
+
+   @media(min-width: 768px) {
+       #resize {
+             display: none !important;
+       }
+   }
+
+
+   @media(max-width: 320px) {
+      #resize #menu li a {
+         font-size: 17px;
+      }
+      nav #brand {
+         margin-left: 12px;
+         font-size: 1.5rem;
+      }
+  
+   }
